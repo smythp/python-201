@@ -4,7 +4,8 @@ This workshop takes a step back from Python syntax to look at high-level ways of
 
 ## Contents
 
+[Paradigms](paradigms.md)  
 [Imperative](imperative.md)  
-[Functional](functional.md)
-[Object-Oriented](oo.md)
+[Functional](functional.md)  
+[Object-Oriented](oo.md)  
 
