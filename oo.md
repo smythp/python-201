@@ -1,3 +1,5 @@
+[<<< Previous](functional.md)
+
 # Object-Oriented Programming
 
 Object-oriented, or OO, programming doesn't try to avoid state like functional programming does. Instead, it combines functions and state together into something called an object. An object in object-oriented programming is a container for some data and functions that work on that data.
@@ -100,3 +102,6 @@ if __name__ == '__main__':
 ```
 
 In the object-oriented model, state is contained inside the object. Our StringProcessor object contains an attribute that represents a string. Our TokenManipulator object contains an attribute that represents a list of words. These objects also have methods, or functions defined inside them, that work on those attributes. Our `clean` method, for example, operates on the `string` attribute inside a StringProcessor object.
+
+[<<< Previous](functional.md)
+

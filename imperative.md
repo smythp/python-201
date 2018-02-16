@@ -1,3 +1,5 @@
+[<<< Previous](paradigms.md) | [Next >>>](functional.md)
+
 # Imperative Solution
 
 Remember that the imperative solution defines a series of steps to go through to solve the problem. Our first step is to define the data we'll be working with—in the real world we'd probably be pulling this text in from another source, but here we'll create a short block of text right in the program.
@@ -66,9 +68,11 @@ print("Number of words beginning with character:",
       len(words_beginning_with_character))
 ```
 
-When run, our prigram will print out the information we want about our short piece of text. Our full imperative script can be viewed [here](imperative.py).
+When run, our program will print out the information we want about our short piece of text. Our full imperative script can be viewed [here](imperative.py).
 
 
 ## Problems With An Imperative Approach
 
 You may already be seeing some issues with the imperative approach. First, our code is pretty messy. The script does a bunch of things, and we don't know which part of the script is dedicated to which functionality. Second, it's not very reusable. If we try to do another analysis, we'll be changing variables or copy and pasting code, which violates the programming principle of DRY—don't repeat yourself. Third, if we need to change the program, there are many parts that are dependent on other parts, which means that one change is likely to require a bunch of other changes to accommodate it.
+
+[<<< Previous](paradigms.md) | [Next >>>](functional.md)

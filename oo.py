@@ -47,9 +47,6 @@ class TokenManipulator(object):
 
         return word_match_counter
 
-
-        words_beginning_with_character = []
-
     def match_first_character(self, match_character):
         words_beginning_with_character = []
 

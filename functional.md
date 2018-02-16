@@ -1,3 +1,5 @@
+[<<< Previous](imperative.md) | [Next >>>](oo.md)
+
 # Introducing Functional Programming
 
 Functional programming is a programming paradigm that solves problems by moving data from function to function, resulting in a series of transformations. Functional programming recognizes that a source of complexity in programs is the assignment of variables, since assigning variables means that the designer of the program, and the program itself, can't be sure what state the variable is in when it's used. In pure functional programming, variables are not used at all, and everything is done by passing values between functions. In Python, functional programming usually means keeping variable assignment within functions and not defining variables outside functions.
@@ -94,3 +96,5 @@ if __name__ == '__main__':
 The `if __name__ == '__main__':` portion of the code means that the code after it will only be run if our script is run directly. If it's imported like a library, this part won't run. Mostly, this code just calls the functions we've defined in order to print some results.
 
 You can see our full functional code [here](functional.py). Next, we'll be looking at object-oriented programming, which takes a very different approach to using state in solving problems.
+
+[<<< Previous](imperative.md) | [Next >>>](oo.md)
