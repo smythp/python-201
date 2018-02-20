@@ -6,7 +6,7 @@ Object-oriented, or OO, programming doesn't try to avoid state like functional p
 
 If functional programming is all about keeping data and functions separate, object-oriented programming connects functions and data together.
 
-## Functional Solution
+## Object-Oriented Solution
 
 In our functional solution, we created a set of functions that could talk with one another and which could pass data between them. Our object-oriented solution will create two object classes, one that processes text given to it as a string and another that manipulates a list of tokens. 
 
