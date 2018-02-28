@@ -1,6 +1,6 @@
 [Next >>>](imperative.md)
 
-# Programmin# Programming Paradigms
+# Programming Paradigms
 
 ## Imperative
 
@@ -12,7 +12,7 @@ Functional programming solves problems by passing values from function to functi
 
 ## Object-oriented
 
-Object-oritended programs cobine functions and data into an object. OO programming is useful when creating friendly user interfaces in libraries and when organizing projects that a lot of coders work on simultaneously.
+Object-oriented programs cobine functions and data into an object. OO programming is useful when creating friendly user interfaces in libraries and when organizing projects that a lot of coders work on simultaneously.
 
 [Next >>>](imperative.md)
 

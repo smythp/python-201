@@ -31,7 +31,6 @@ class TokenManipulator(object):
 
         self.tokens = tokens
 
-
     def length(self):
         """Return the number of tokens in the token list."""
         return len(self.tokens)
@@ -69,10 +68,9 @@ if __name__ == '__main__':
 
     print('Number of occurances of word match:',
           tokens.count_match('except'))
-    
+
     print("Words beginning with character:",
           tokens.match_first_character('e'))
 
     print("Number of words beginning with character:",
           len(tokens.match_first_character('e')))
-    
