@@ -63,4 +63,4 @@ if __name__ == '__main__':
           words_matching_first_character(tokens, 'e'))
 
     print("Number of words beginning with character:",
-          words_matching_first_character(tokens, 'e'))
+          len(words_matching_first_character(tokens, 'e')))
