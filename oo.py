@@ -26,7 +26,7 @@ class StringProcessor(object):
 
 class TokenManipulator(object):
     def __init__(self, tokens):
-        """Create the TokenManipulator ojbect.
+        """Create the TokenManipulator object.
         When creating the object, we need to give it a list of tokens."""
 
         self.tokens = tokens
